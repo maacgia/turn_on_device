@@ -1,0 +1,7 @@
+services:
+  wake-up:
+    build: .
+    restart: always
+    container_name: wake-up
+    volumes:
+      - .:/app
